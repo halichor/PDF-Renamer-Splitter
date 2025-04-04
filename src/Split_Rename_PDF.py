@@ -78,7 +78,7 @@ class SplitPDFApp(TkinterDnD.Tk):
 
         self.filename_format_instructions = ttkb.Label(
             self,
-            text="Use column names from CSV in curly brackets.\n(e.g., Invitation to {province}, {LGU})",
+            text="Use column names from CSV in curly brackets.\n(e.g., {ID} - Invitation to {name})",
             font=("Helvetica", 10),
             wraplength=450,
             anchor="w",
